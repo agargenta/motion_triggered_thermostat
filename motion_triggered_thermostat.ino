@@ -107,4 +107,6 @@ void loop() {
     previousTemperature = currentTemperature;
     previousTemperatureTimestamp = currentTimestamp;
   }
+
+  delay(500);
 }
